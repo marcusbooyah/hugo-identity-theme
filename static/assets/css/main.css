@@ -127,7 +127,7 @@ a {
     -ms-transition: color 0.2s ease, text-shadow 0.2s ease;
     transition: color 0.2s ease, text-shadow 0.2s ease; }
   a:hover {
-    color: #ff7496; }
+    color: ##0066cc; }
 
 strong, b {
   color: #313f47; } /*  #313f47   */
@@ -229,7 +229,7 @@ textarea {
   input[type="tel"]:focus,
   select:focus,
   textarea:focus {
-    border-color: #ff7496; }
+    border-color: #0066cc; }
 
 .select-wrapper {
   text-decoration: none;
@@ -312,11 +312,11 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    color: #ff7496;
+    color: ##0066cc;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    border-color: #ff7496; }
+    border-color: #0066cc; } /*#0066cc; }*/
 
 input[type="checkbox"] + label:before {
   border-radius: 4px; }
@@ -414,7 +414,7 @@ ul {
           color: #ffffff;
           text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf; }
         ul.icons li a:hover:before {
-          text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496; }
+          text-shadow: 1.25px 0px 0px #0066cc, -1.25px 0px 0px #0066cc, 0px 1.25px 0px #0066cc, 0px -1.25px 0px #0066cc; }
         ul.icons li a:before {
           position: absolute;
           top: 0;
@@ -426,7 +426,7 @@ ul {
           text-align: center;
           text-indent: 0; }
         ul.icons li a:hover {
-          border-color: #ff7496; }
+          border-color: #0066cc; }
     @media screen and (max-width: 480px) {
       ul.icons li a:before {
         font-size: 1.5rem; } }
@@ -480,8 +480,8 @@ button,
   input[type="button"]:hover,
   button:hover,
   .button:hover {
-    border-color: #ff7496;
-    color: #ff7496 !important; }
+    border-color: #0066cc; /*#0066cc;*/
+    color: #0066cc !important; }
   input[type="submit"].icon,
   input[type="reset"].icon,
   input[type="button"].icon,
